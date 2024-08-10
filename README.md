@@ -1,6 +1,8 @@
 # app
 
 ## run the backend
+use operating system ami-01b479c50edc9aca5
+
 ### install python pip
 yum install python3-pip -y
 
