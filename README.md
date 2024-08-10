@@ -11,6 +11,7 @@ pip3 install -r requirements.txt
 
 ### run the program
 python3 app.py
+
 access it via port 5000
 
 
@@ -31,4 +32,5 @@ VUE_APP_BACKEND_URL=http://backend_ip:5000
 
 ### run the program
 npm run serve
+
 access it via port 8080
