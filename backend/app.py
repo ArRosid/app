@@ -1,8 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # Initialize the Flask app
 app = Flask(__name__)
+
+# Enable CORS
+CORS(app)
 
 # Load the model and tokenizer
 model_name = "distilgpt2"
