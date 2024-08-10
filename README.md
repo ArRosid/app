@@ -8,7 +8,7 @@ use operating system ami-01b479c50edc9aca5
 pip install -r requirements.txt
 
 ### run the program
-python3 app.py
+python app.py
 
 access it via port 5000
 
