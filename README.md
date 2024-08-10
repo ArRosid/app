@@ -3,11 +3,9 @@
 ## run the backend
 use operating system ami-01b479c50edc9aca5
 
-### install python pip
-yum install python3-pip -y
 
 ### install dependencies
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
 ### run the program
 python3 app.py
