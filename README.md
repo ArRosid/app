@@ -16,9 +16,9 @@ access it via port 5000
 
 ## run the frontend
 ### install nodejs
-yum install gcc-c++ make -y
-curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
-yum install nodejs git -y
+yum install gcc-c++ make -y\n
+curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo -E bash -\n
+yum install nodejs git -y\n
 
 ### install dependencies
 npm install
